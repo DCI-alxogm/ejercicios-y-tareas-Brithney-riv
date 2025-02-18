@@ -4,7 +4,7 @@
 
 int main()
 {
-   int a,b,c,d;
+   float a,b,c,d;
    int e1, e2, e3, e4;
 
   a=-9;
