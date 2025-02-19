@@ -15,11 +15,9 @@ int main()
   e2=((a+b)*c)/d;
   e3=(a+b)*(c/d);
   e4=a+b*c/d;
-  printf("e=(a+b)*c/d=%d",e1);
 
-  printf("e=((a+b)*c)/d=%d", e2);
-
-  printf("e=(a+b)*(c/d)=%d", e3);
-
-  printf("e=(a+b*c/d=%d", e4);
+  printf("e=(a+b)*c/d=%d\n",e1);
+  printf("e=((a+b)*c)/d=%d\n", e2);
+  printf("e=(a+b)*(c/d)=%d\n", e3);
+  printf("e=(a+b*c/d=%d\n", e4);
 }
