@@ -1,4 +1,4 @@
-/*Tarea 17 de Febrero: operaciones con núemros reales proporcionados por el usuario*/
+/*Tarea 17 de Febrero: operaciones con números reales proporcionados por el usuario*/
 
 #include <stdio.h>
 
