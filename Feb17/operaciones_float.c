@@ -1,4 +1,4 @@
-/*Programa 17 de Febrero: Jerarquía de operaciones con enteros*/
+/*Programa 17 de Febrero: Jerarquía de operaciones con números reales*/
 
 #include <stdio.h>
 
