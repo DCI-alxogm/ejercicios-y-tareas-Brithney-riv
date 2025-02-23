@@ -4,29 +4,28 @@
 
 int main()
 {
-   int a,b,c,d;
-   int e1, e2, e3, e4;
+   float a,b,c,d;   //Variables
+   float e1, e2, e3, e4;
 
   printf("introduce el valor de a:");
-  scanf("%d",&a);
-
+  scanf("%f",&a);
   printf("introduce el valor de b:");
-  scanf("%d",&b);
-
+  scanf("%f",&b);
   printf("introduce el valor de c:");
-  scanf("%d",&c);
-
+  scanf("%f",&c);
   printf("introduce el valor de d:");
-  scanf("%d",&d);
+  scanf("%f",&d);
   
+  //Operaciones
   e1=(a+b)*c/d;
   e2=((a+b)*c)/d;
   e3=(a+b)*(c/d);
   e4=a+b*c/d;
 
-  printf("e=(a+b)*c/d=%d\n",e1);
-  printf("e=((a+b)*c)/d=%d\n", e2);
-  printf("e=(a+b)*(c/d)=%d\n", e3);
-  printf("e=(a+b*c/d=%d\n", e4);
+  //Resultados
+  printf("e=(a+b)*c/d=%f\n",e1);
+  printf("e=((a+b)*c)/d=%f\n", e2);
+  printf("e=(a+b)*(c/d)=%f\n", e3);
+  printf("e=(a+b*c/d=%f\n", e4);
 }
 
