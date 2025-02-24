@@ -5,7 +5,7 @@
 int main()
 {
    float a,b,c,d;  //Variables
-   float e1, e2, e3, e4;   
+   float e1, e2, e3, e4; 
    
   //Instrucciones al usuario
   printf("introduce el valor de a:");
