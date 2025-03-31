@@ -1,0 +1,7 @@
+Introduce el valor inicial de X: Introduce el valor final de X: Introduce el valor del incremento: X: 3, el cuadrado es: 9
+X: 5, el cuadrado es: 25
+X: 7, el cuadrado es: 49
+X: 9, el cuadrado es: 81
+X: 11, el cuadrado es: 121
+X: 13, el cuadrado es: 169
+X: 15, el cuadrado es: 225
