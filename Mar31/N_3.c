@@ -2,7 +2,7 @@
 
 int main() {
     int numero;
-    char continuar;
+    char repetir;
 
     do {
         // Solicitar un número positivo
@@ -14,12 +14,13 @@ int main() {
         printf("Ingresaste el número positivo: %d\n", numero);
 
         // Preguntar para hacer otro cálculo 
-        printf("¿Deseas ingresar otro número? (s para sí, cualquier otra para no): ");
-        scanf(" %c", &continuar);  
+        printf("¿Quieres calcular algo más? (s/n): ");
+        scanf(" %c", &repetir);
 
-    } while (continuar == 's' || continuar == 'S'); 
+        } while (repetir == 's' || repetir == 'S'); 
 
-    printf("¡Hasta la próxima!\n");
+          printf("¡Hasta la próxima!\n");
 
+   
     return 0;
 }
