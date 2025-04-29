@@ -23,7 +23,7 @@ int main() {
         sum_x2 += x[i] * x[i];
     }
 
-    // Cálculo de la pendiente (m) y la ordenada al origen (b)
+    // Cálculos de la pendiente m y la ordenada al origen b para la ecuación y= mx + b
     m = (n * sum_xy - sum_x * sum_y) / (n * sum_x2 - sum_x * sum_x);
     b = (sum_y - m * sum_x) / n;
 
