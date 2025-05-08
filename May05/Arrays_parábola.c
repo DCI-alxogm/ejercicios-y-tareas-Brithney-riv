@@ -16,7 +16,7 @@ int main() {
     // Abrir el archivo
     archivo = fopen(nombre_archivo, "r");
     if (archivo == NULL) {  // Verificar si no hay errores
-        printf("No se pudo abrir el archivo.\n");
+        printf("Error de archivo.\n");
         return 1;  // Terminar el programa si hay algún error
     }
 
